@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import BlockstackContext from 'react-blockstack/dist/context'
 
-// Demonstrating Blockstack Context supporting legacy React Class Components
+// Demonstrating BlockstackContext supporting legacy React Class Components
 
 export default class Landing extends Component {
   static contextType = BlockstackContext
