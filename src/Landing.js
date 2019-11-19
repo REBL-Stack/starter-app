@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 import BlockstackContext from 'react-blockstack/dist/context'
 
-// Demonstrating Blockstack Context for compatibility with React Class Components
+// Demonstrating Blockstack Context supporting legacy React Class Components
 
 export default class Landing extends Component {
   static contextType = BlockstackContext
   render () {
     const { signIn } = this.context
     return (
-      <div className="panel-landing" id="section-1">
+      <div className="panel-landing">
         <h1 className="landing-heading">Hello, Blockstack!</h1>
         <p className="lead">
           <button
