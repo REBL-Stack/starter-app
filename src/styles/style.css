@@ -14,8 +14,8 @@ body{color:#3700FF;text-align:center;}
 .navbar{background-color:#3700FF !important;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
 
 /* Avatar */
-.avatar{width:100px;height:100px;}
-.avatar-section{margin-bottom:25px;}
+.avatar{width:100px;height:100px; }
+.avatar-section{margin:25px;}
 
 /* Scaffolding */
 .site-wrapper{display:table;width:100%;height:90% !important;min-height:90vh !important;}
