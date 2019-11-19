@@ -1,11 +1,9 @@
 import React from 'react'
-import { useBlockstack } from 'react-blockstack'
 import Auth from './Auth'
 
 const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder.png';
 
 export default function Profile ({ person }) {
-  const { signOut } = useBlockstack()
   return (
     <div className="panel-welcome" id="section-2">
       <div className="avatar-section">
@@ -14,7 +12,7 @@ export default function Profile ({ person }) {
       </div>
       <h1>Hello, <span id="heading-name">{ (person && person.name()) || 'Nameless Person' }</span>!</h1>
       <p className="lead">
-        <Auth signOut={signOut} />
+        <Auth/>
       </p>
     </div>
   )
