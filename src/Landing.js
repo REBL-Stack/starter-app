@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import BlockstackContext from 'react-blockstack/dist/context'
-import { BlockstackButton } from 'react-blockstack-button';
+import { BlockstackButton } from 'react-blockstack-button'
 
 // Demonstrating BlockstackContext in support of legacy React Class Components
 
