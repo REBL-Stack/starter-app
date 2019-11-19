@@ -1,19 +1,8 @@
 import React from 'react'
-import { useBlockstack} from 'react-blockstack'
+import { useBlockstack } from 'react-blockstack'
+import Auth from './Auth'
 
 const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder.png';
-
-function Auth ({signOut}) {
-  return (
-    <button
-      className="btn btn-primary btn-lg"
-      id="signout-button"
-      disabled={ !signOut }
-      onClick={ signOut }>
-      Logout
-    </button>
-    )
-}
 
 export default function Profile ({ person }) {
   const { signOut } = useBlockstack()
