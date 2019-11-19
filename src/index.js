@@ -7,8 +7,8 @@ import App from './App.js'
 import Auth from './Auth.js'
 
 // Require Sass file so webpack can build it
-import 'bootstrap/dist/css/bootstrap.css';
-import'./styles/style.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import'./styles/style.css'
 
 const appConfig = new AppConfig()
 const blockstack = ReactBlockstack(appConfig)
