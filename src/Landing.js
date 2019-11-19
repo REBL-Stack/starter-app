@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import BlockstackContext from 'react-blockstack/dist/context'
 import { BlockstackButton } from 'react-blockstack-button';
 
-// Demonstrating BlockstackContext supporting legacy React Class Components
+// Demonstrating BlockstackContext in support of legacy React Class Components
 
 export default class Landing extends Component {
   static contextType = BlockstackContext
