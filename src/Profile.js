@@ -25,7 +25,8 @@ export default function Profile ({ person }) {
             <span className="input-group-text">Note</span>
           </div>
           <input type="text" ref={textfield} className="form-control" disabled={note === undefined}
-                 defaultValue={ note || ""} placeholder="Note to your future self..."/>
+                 defaultValue={ note || ""} placeholder="Note to your future self..."
+                 onKeyUp={(e) => {if (e.key === "Enter") saveAction()}}/>
           <div className="input-group-append">
             <button className="btn btn-outline-secondary" type="button"
                     disabled={!setNote} onClick={saveAction}>
