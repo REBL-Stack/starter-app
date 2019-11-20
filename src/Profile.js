@@ -41,7 +41,7 @@ export default function Profile ({ person }) {
       </div>
       <h1>Hello, <span id="heading-name">{ (person && person.name()) || 'Nameless Person' }</span>!</h1>
       <div className="lead row mt-5">
-        <div className="mx-auto col-md-6 col-lg-4">
+        <div className="mx-auto col-md-8 col-lg-6 px-3">
           <NoteField placeholder="Note to your future self..."/>
         </div>
       </div>
