@@ -5,7 +5,13 @@ const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder
 
 export default function Profile ({ person }) {
   const [note, setNote] = useFile("note")
-  const ref = useRef()
+  const textfield = useRef()
+  const spinner = useRef()
+  const saveAction = () => {
+    spinner.current.classList.remove('hide')
+    setNote(textfield.current.value)
+    setTimeout(() => spinner.current.classList.add('hide'), 2000)
+  }
   return (
     <div className="panel-welcome" id="section-2">
       <div className="avatar-section">
@@ -18,11 +24,13 @@ export default function Profile ({ person }) {
           <div className="input-group-prepend">
             <span className="input-group-text">Note</span>
           </div>
-          <input type="text" ref={ref} className="form-control" disabled={note === undefined}
+          <input type="text" ref={textfield} className="form-control" disabled={note === undefined}
                  defaultValue={ note || ""} placeholder="Note to your future self..."/>
           <div className="input-group-append">
             <button className="btn btn-outline-secondary" type="button"
-                    disabled={!setNote} onClick={() => setNote(ref.current.value)}>
+                    disabled={!setNote} onClick={saveAction}>
+              <div ref={spinner} role="status"
+                   className="hide spinner-border spinner-border-sm text-info align-text-top mr-2"/>
               Save
             </button>
           </div>
