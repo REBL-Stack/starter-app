@@ -9,9 +9,9 @@
     "url": "git+https://github.com/njordhov/react-blockstack.git"
   },
   "dependencies": {
-    "blockstack": "^19.2.5",
+    "blockstack": "^19.3.0",
     "react": "^16.8.6",
-    "react-blockstack": "^0.6.0",
+    "react-blockstack": "^0.6.3",
     "react-blockstack-button": "^0.1.0",
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0"
