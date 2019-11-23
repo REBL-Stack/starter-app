@@ -1,6 +1,5 @@
 import React, {useRef} from 'react'
 import { useFile } from 'react-blockstack'
-import Gun from 'gun/gun'
 
 const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder.png';
 
