@@ -1,21 +1,27 @@
 /* Globals */
-a,a:focus,a:hover{color:#fff;}
-html,body{height:100%;background-color:#F4F4FC;}
-body{color:#3700FF;text-align:center;}
-.hide{display:none;}
-.landing-heading{font-family:'Source Code Pro',monospace;font-weight:400;}
 
-/* Buttons */
-.navbar{background-color:#3700FF !important;-webkit-border-radius: 0;-moz-border-radius: 0;border-radius: 0;}
+:root  {
+  /* https://projects.invisionapp.com/boards/HE2VVROFSGB27 */
+  --brand-background: #270F34;
+  --brand-lines: #4B3457;
+  /* Blockstack colors */
+  --brand-dark: #211F6D;
+  --brand-mild: #C4D8E5;
+  --brand-greyish: #F1F6F9;
+  --brand-bright: #3700FF;
+  --brand-accent: #00D4FF;
+}
+
+html,body{min-height:100vh;background-color:#F4F4FC;}
+
+.navbar-dark {
+  background-color: var(--brand-bright) !important;
+}
 
 /* Avatar */
-.avatar{width:100px;height:100px; }
+.avatar{width:100px;height:100px; border-radius: 50%}
 .avatar-section{margin:25px;}
 
 /* Scaffolding */
-.site-wrapper{display:table;width:100%;height:90% !important;min-height:90vh !important;}
+.site-wrapper{width:100%;height:90% !important;min-height:90vh !important;}
 .site-wrapper-inner{display:flex;flex-direction:column;justify-content:center;margin-right:auto;margin-left:auto;width:100%;height:90%;}
-.panel-authed{padding:0 0 0 0;}
-
-/* Home button */
-.btn-home-hello{position:absolute;font-family:'Source Code Pro',monospace;font-size:11px;font-weight:400;color:rgba(255,255,255,0.85);top:15px;left:15px;padding:3px 20px;background-color:rgba(255,255,255,0.15);border-radius:6px;-webkit-box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);-moz-box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);box-shadow:0px 0px 20px 0px rgba(0,0,0,0.15);}

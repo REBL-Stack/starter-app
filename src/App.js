@@ -10,8 +10,8 @@ export default function App (props) {
   <Blockstack>
     <div className="site-wrapper">
       <div className="site-wrapper-inner">
-         {signIn && <Landing />}
-         {person && <Main person={person} />}
+         {signIn && <Landing/>}
+         {person && <Main person={person}/>}
       </div>
     </div>
   </Blockstack>

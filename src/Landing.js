@@ -9,7 +9,7 @@ export default class Landing extends Component {
   render () {
     const { signIn } = this.context
     return (
-      <div className="panel-landing">
+      <div className="panel-landing text-center mt-5">
         <h1 className="landing-heading">Hello, Blockstack!</h1>
         <p className="lead">
           <BlockstackButton onClick={ signIn }/>
