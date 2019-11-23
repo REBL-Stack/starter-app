@@ -1,7 +1,7 @@
 import React from 'react';
 import { useBlockstack} from 'react-blockstack'
 import { Blockstack } from 'react-blockstack/dist/context'
-import Profile from './Profile.js';
+import Main from './Main.js';
 import Landing from './Landing.js';
 
 export default function App (props) {
@@ -11,7 +11,7 @@ export default function App (props) {
     <div className="site-wrapper">
       <div className="site-wrapper-inner">
          {signIn && <Landing />}
-         {person && <Profile person={person} />}
+         {person && <Main person={person} />}
       </div>
     </div>
   </Blockstack>

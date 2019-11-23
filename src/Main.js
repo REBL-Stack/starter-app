@@ -3,6 +3,18 @@ import { useFile } from 'react-blockstack'
 
 const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder.png';
 
+function Profile ({ person }) {
+  return (
+   <>
+    <div className="avatar-section">
+      <img src={ (person && person.avatarUrl()) || avatarFallbackImage }
+           className="img-rounded avatar" id="avatar-image" alt="Avatar"/>
+    </div>
+    <h1>Hello, <span id="heading-name">{ (person && person.name()) || 'Nameless Person' }</span>!</h1>
+   </>
+  )
+}
+
 function NoteField ({placeholder}) {
   const [note, setNote] = useFile("note")
   const textfield = useRef()
@@ -32,19 +44,15 @@ function NoteField ({placeholder}) {
   )
 }
 
-export default function Profile ({ person }) {
+export default function Main ({ person }) {
   return (
-    <div className="panel-welcome" id="section-2">
-      <div className="avatar-section">
-        <img src={ (person && person.avatarUrl()) || avatarFallbackImage }
-             className="img-rounded avatar" id="avatar-image" alt="Avatar"/>
-      </div>
-      <h1>Hello, <span id="heading-name">{ (person && person.name()) || 'Nameless Person' }</span>!</h1>
+    <main className="panel-welcome" id="section-2">
+      <Profile person={person}/>
       <div className="lead row mt-5">
         <div className="mx-auto col-md-8 col-lg-6 px-3">
-          <NoteField placeholder="Note to your future self..."/>
+          <NoteField placeholder="to your future self..."/>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
