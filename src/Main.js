@@ -15,8 +15,8 @@ function Profile ({ person }) {
   )
 }
 
-function NoteField ({placeholder}) {
-  const [note, setNote] = useFile("note")
+function NoteField ({title, path, placeholder}) {
+  const [note, setNote] = useFile(path)
   const textfield = useRef()
   const spinner = useRef()
   const saveAction = () => {
@@ -27,7 +27,7 @@ function NoteField ({placeholder}) {
   return(
     <div className="NoteField input-group ">
       <div className="input-group-prepend">
-        <span className="input-group-text">Note</span>
+        <span className="input-group-text">{title}</span>
       </div>
       <input type="text" ref={textfield} className="form-control" disabled={note === undefined}
              defaultValue={ note || ""} placeholder={placeholder}
@@ -52,7 +52,7 @@ export default function Main ({ person }) {
       </div>
       <div className="lead row mt-5">
         <div className="mx-auto col-md-8 col-lg-6 px-3">
-          <NoteField placeholder="to your future self..."/>
+          <NoteField title="Note" path="note" placeholder="to your future self..."/>
         </div>
       </div>
     </main>
