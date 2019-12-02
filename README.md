@@ -1,6 +1,12 @@
 # Blockstack React App
 
-This project was bootstrapped from the [Blockstack:React App Generator](https://github.com/blockstack/blockstack-app-generator) which is based on [Create React App](https://github.com/facebook/create-react-app).
+This is a foundation for developing Blockstack apps with React,
+using the React-Blockstack library on top of the Blockstack SDK.
+
+It applies Bootstrap for layout and style, but it is trivial to substitute with another framework of your choice (or none at all).
+
+The project is based on [Create React App](https://github.com/facebook/create-react-app),
+a starter app for React, where you can find further documentation.
 
 ## Available Scripts
 
