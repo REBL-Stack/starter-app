@@ -1,6 +1,6 @@
 {
-  "name": "Hello, Blockstack",
-  "description": "A simple demo of Blockstack Auth",
+  "name": "REBL One",
+  "description": "A starter app using React with Blockstack",
   "icons": [
     {
     "src": "favicon.ico",
