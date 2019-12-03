@@ -1,0 +1,25 @@
+[build]
+  command = "cp -r cors/ public/; npm run build"
+  functions = "functions"
+  publish = "build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html 200"
+
+[[redirects]]
+  from = "/media/*"
+  to = "/media/:splat"
+
+[[headers]]
+  for = "/index.html"
+  [headers.values]
+    Access-Control-Allow-Origin: *
+    Access-Control-Allow-Headers: "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding"
+    Access-Control-Allow-Methods: "POST, GET, OPTIONS, DELETE, PUT"
+
+  for = "/manifest.json"
+  [headers.values]
+    Access-Control-Allow-Origin: *
+    Access-Control-Allow-Headers: "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding"
+    Access-Control-Allow-Methods: "POST, GET, OPTIONS, DELETE, PUT"
