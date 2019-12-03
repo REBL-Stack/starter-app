@@ -56,8 +56,13 @@ export default function Main ({ person }) {
       </div>
       <div className="lead row mt-5">
         <div className="mx-auto col-sm-10 col-md-8 col-lg-6 px-4">
-          <NoteField title="Note" path="note" placeholder="to your future self..."/>
+          <NoteField title="Note" path="note" placeholder="to yourself..."/>
         </div>
+
+        <p className="alert alert-warning text-center col-sm-10 col-md-8 col-lg-6 mx-auto mt-5 px-5">
+         Type text in the field above and click the Save button to store the note
+         for next time you visit this page. Log out to deploy your own clone of this app!
+        </p>
       </div>
     </main>
   )

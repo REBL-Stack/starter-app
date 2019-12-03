@@ -8,7 +8,7 @@ export default function Auth (props) {
       className="btn btn-primary btn-lg"
       disabled={ !signIn && !signOut }
       onClick={ signIn || signOut }>
-      {signIn ? "Signin" : signOut ? "Logout" : "..."}
+      {signIn ? "Sign In" : signOut ? "Log Out" : "..."}
     </button>
     )
 }

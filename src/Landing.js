@@ -9,43 +9,47 @@ export default class Landing extends Component {
   render () {
     const { signIn } = this.context
     return (
-      <div className="panel-landing text-center">
+      <div className="panel-landing text-center mt-3">
         <h1 className="landing-heading">REBL One</h1>
         <p className="lead">
           A Foundation for Making Apps using React and Blockstack.
         </p>
 
-        <p>This starter app has the minimal functionality of a Blockstack
-        app, with the purpose to <strong>help web app developers like you
-        to quickly get going with Blockstack&nbsp;app&nbsp;development.</strong></p>
-
-        <p>This website demonstrates the basic functionality of the starter app.
-        TLDR; not much: After signing in and authenticating with Blockstack,
-        you'll be able to save a note to Blockstack's online storage, Gaia.
-        Next time you sign on or reload the page, your note will be retrieved
-        and displayed.
-        That's it. But you can build on this functionality to make amazing apps.</p>
-
-        <div className="alert alert-info">
-        <p>Basic Requirements for development:
-        <ol>
-        <li>Account on Github</li>
-        <li>npm (Node Package Manager) installed on your computer</li>
-        <li>Account on Netlify or other web hosting service</li>
-        </ol>
+        <p className="alert alert-info">
+        REBL One is an open source project providing the minimal functionality of a Blockstack
+        app, with the purpose of <strong>helping software developers like you
+        to quickly get going with Blockstack&nbsp;app&nbsp;development.</strong>
         </p>
+
+        <div className="card mt-3 p-3">
+          <p>Check out the REBL One starter app:</p>
+
+          <p className="lead">
+            <BlockstackButton onClick={ signIn }/>
+          </p>
+
+          <p>After signing in and authenticating with Blockstack,
+          you'll be able to save a note to Blockstack's online storage, Gaia.
+          Next time you sign on or reload the page, your note will be retrieved
+          and displayed.
+          That's it. You can build on this functionality to make amazing apps.</p>
+
         </div>
 
-        <p>This is an Open Source project
-        with <a href="https://github.com/REBL-Stack/starter-app">sources</a> publicly
-        available on github.</p>
 
-        <div className="alert alert-info">
-        <p>To check out the basic functionality provided by the starter app:</p>
+        <div className="card mt-3 p-3">
 
-        <p className="lead">
-          <BlockstackButton onClick={ signIn }/>
-        </p>
+          <p>Assuming you have accounts
+             on <a href="https://github.com">Github</a>&nbsp;
+             and <a href="https://netlify.com">Netlify</a> you can
+             automatically <strong>generate a website with your own clone of this app:</strong></p>
+          <p>
+            <a className="btn btn-outline-primary" type="button"
+                   href="https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app"  >
+              Deploy to Netlify
+            </a>
+          </p>
+
         </div>
       </div>
     )
