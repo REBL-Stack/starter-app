@@ -6,11 +6,13 @@ const avatarFallbackImage = 'https://s3.amazonaws.com/onename/avatar-placeholder
 function Profile ({ person }) {
   return (
    <div className="Profile">
-    <div className="avatar-section">
+    <div className="avatar-section text-center">
       <img src={ (person && person.avatarUrl()) || avatarFallbackImage }
            className="img-rounded avatar" id="avatar-image" alt="Avatar"/>
     </div>
-    <h1>Hello, <span id="heading-name">{ (person && person.name()) || 'Nameless Person' }</span>!</h1>
+    <h1 className="text-center mt-2">
+      Hello, <span id="heading-name">{ (person && person.name()) || 'App Developer' }</span>!
+    </h1>
    </div>
   )
 }
@@ -46,12 +48,14 @@ function NoteField ({title, path, placeholder}) {
 
 export default function Main ({ person }) {
   return (
-    <main className="panel-welcome">
-      <div className="text-center">
-        <Profile person={person}/>
+    <main className="panel-welcome mt-5">
+      <div className="row">
+        <div className="mx-auto col-sm-10 col-md-8 col-lg-6 px-4">
+          <Profile person={person}/>
+        </div>
       </div>
       <div className="lead row mt-5">
-        <div className="mx-auto col-md-8 col-lg-6 px-3">
+        <div className="mx-auto col-sm-10 col-md-8 col-lg-6 px-4">
           <NoteField title="Note" path="note" placeholder="to your future self..."/>
         </div>
       </div>

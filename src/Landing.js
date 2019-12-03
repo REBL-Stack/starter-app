@@ -9,7 +9,7 @@ export default class Landing extends Component {
   render () {
     const { signIn } = this.context
     return (
-      <div className="panel-landing text-center mt-1">
+      <div className="panel-landing text-center">
         <h1 className="landing-heading">REBL One</h1>
         <p className="lead">
           A Foundation for Making Apps using React and Blockstack.
