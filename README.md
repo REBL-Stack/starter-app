@@ -1,7 +1,7 @@
-# Blockstack React App
+# React Blockstack Starter App
 
 This is a foundation for developing Blockstack apps with React,
-using the React-Blockstack library on top of the Blockstack SDK.
+using the [React-Blockstack](https://www.npmjs.com/package/react-blockstack) library on top of the Blockstack SDK.
 
 It applies Bootstrap for layout and style, but it is trivial to substitute with another framework of your choice (or none at all).
 
