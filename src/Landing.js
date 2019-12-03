@@ -28,10 +28,8 @@ export default class Landing extends Component {
             <BlockstackButton onClick={ signIn }/>
           </p>
 
-          <p>After signing in and authenticating with Blockstack,
+          <p className="mt-4">After signing in and authenticating with Blockstack,
           you'll be able to save a note to Blockstack's online storage, Gaia.
-          Next time you sign on or reload the page, your note will be retrieved
-          and displayed.
           That's it. You can build on this functionality to make amazing apps.</p>
 
         </div>

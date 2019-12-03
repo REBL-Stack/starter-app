@@ -61,7 +61,8 @@ export default function Main ({ person }) {
 
         <p className="alert alert-warning text-center col col-sm-10 col-md-8 mx-auto mt-5 px-5">
          Type text in the field above and click the Save button to store the note
-         for next time you visit this page. Log out to deploy your own clone of this app!
+         for next time you visit this page. Log out to get back to the Landing page where
+         you can deploy your own clone of this app!
         </p>
       </div>
     </main>
