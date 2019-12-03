@@ -16,7 +16,7 @@ export default class Landing extends Component {
         </p>
 
         <p className="alert alert-info">
-        REBL One is an open source project providing the minimal functionality of a Blockstack
+        REBL One is an open source project providing a minimalistic Blockstack
         app, with the purpose of <strong>helping software developers like you
         to quickly get going with Blockstack&nbsp;app&nbsp;development.</strong>
         </p>
