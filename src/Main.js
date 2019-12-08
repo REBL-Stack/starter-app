@@ -68,7 +68,7 @@ export default function Main ({ person }) {
              Type any text in the field above.
            </li>
            <li class="list-group-item">
-            Type the <i>Enter</i> key or click the <i>Save</i> button to store the note.
+            Press the <i>Enter</i> key or click the <i>Save</i> button to store the note.
            </li>
            <li class="list-group-item">Reload the page to confirm that the text is retained.</li>
           </ul>

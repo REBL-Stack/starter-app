@@ -82,7 +82,7 @@ export default class Landing extends Component {
                 <p className="card-text mx-5 my-3">Assuming you have accounts
                    on <a href="https://github.com" target="_blank">Github</a>&nbsp;
                    and <a href="https://netlify.com" target="_blank">Netlify</a> you can
-                   automatically <strong>generate a website with your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;app for free:</strong></p>
+                   automatically <strong>generate and host for free a website that has your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;app:</strong></p>
               </div>
               <div className="card-footer">
                 <a className="btn btn-secondary p-0" type="button" target="_blank"
