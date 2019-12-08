@@ -23,16 +23,16 @@ export default class Landing extends Component {
 
         <div className="card mt-3">
           <div className="row">
-            <div className="col col-md-6 p-3 text-right">
+            <div className="col col-md-6 p-4 text-right border-right">
               <a href="https://blockstack.org/about" target="_blank">
               Blockstack PBC</a> is a New York based public benefit corporation,
             creating a decentralized computing network and app ecosystem designed
             to protect digital rights including privacy and data ownership.
             </div>
-            <div className="col col-md-6 p-3 text-left">
+            <div className="col col-md-6 p-4 text-left border-left">
               <a href="https://app.co/mining" target="_blank">Blockstack awards
               more than $200K/month</a> to the best apps on the platform, increasing
-              to a million dollars a month in May 2020.
+              to a million dollars a month from May 2020.
               Use REBL One to make your app and start earning a share already next month.
             </div>
           </div>
