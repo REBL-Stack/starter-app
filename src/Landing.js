@@ -23,7 +23,7 @@ export default class Landing extends Component {
             an <a href="https://github.com/REBL-Stack/starter-app" target="_blank">open
             source</a> project providing a minimalistic Blockstack
             starter app, with the purpose of <strong>helping software developers like you
-            to quickly get going with Blockstack&nbsp;app&nbsp;development.</strong>
+            quickly get going with Blockstack&nbsp;app&nbsp;development.</strong>
             </p>
 
             <div className="card mt-4 border-info">
@@ -58,8 +58,8 @@ export default class Landing extends Component {
 
                 <p className="card-text mb-3 mt-4 mx-5 px-5">
                 After signing in and authenticating with Blockstack,
-                you'll view your personal profile and be able
-                to save a note to Blockstack's&nbsp;online&nbsp;storage,&nbsp;Gaia.</p>
+                you can view your personal profile and
+                save a note to Blockstack's&nbsp;online&nbsp;storage,&nbsp;Gaia.</p>
               </div>
 
               <p className="card-link mb-5">
@@ -68,7 +68,7 @@ export default class Landing extends Component {
 
 
               <div className="card-footer text-info">
-                  <strong>You can build on this core to make amazing&nbsp;apps.</strong>
+                  <strong>Build on this core to make amazing&nbsp;apps.</strong>
               </div>
 
             </div>
@@ -82,7 +82,7 @@ export default class Landing extends Component {
                 <p className="card-text mx-5 my-3">Assuming you have accounts
                    on <a href="https://github.com" target="_blank">Github</a>&nbsp;
                    and <a href="https://netlify.com" target="_blank">Netlify</a> you can
-                   automatically <strong>generate a website with your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;app:</strong></p>
+                   automatically <strong>generate a website with your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;app for free:</strong></p>
               </div>
               <div className="card-footer">
                 <a className="btn btn-secondary p-0" type="button" target="_blank"

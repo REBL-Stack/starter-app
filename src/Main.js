@@ -59,7 +59,7 @@ export default function Main ({ person }) {
           <NoteField title="Note" path="note" placeholder="to yourself..."/>
         </div>
 
-        <div className="card col col-sm-10 col-md-8 mx-auto mt-5 text-center px-0">
+        <div className="card col col-sm-10 col-md-8 mx-auto mt-5 text-center px-0 border-warning">
           <div className="card-header">
             <h5 className="card-title">Instructions</h5>
           </div>
@@ -68,7 +68,7 @@ export default function Main ({ person }) {
              Type any text in the field above.
            </li>
            <li class="list-group-item">
-            Click the Save button to store the note.
+            Type the <i>Enter</i> key or click the <i>Save</i> button to store the note.
            </li>
            <li class="list-group-item">Reload the page to confirm that the text is retained.</li>
           </ul>
