@@ -26,7 +26,7 @@ export default class Landing extends Component {
             to quickly get going with Blockstack&nbsp;app&nbsp;development.</strong>
             </p>
 
-            <div className="card mt-3 border-info">
+            <div className="card mt-4 border-info">
               <div className="card-header">
                 <h5 className="card-title">
                   About Blockstack
@@ -37,47 +37,49 @@ export default class Landing extends Component {
                   <a href="https://blockstack.org/about" target="_blank">
                   Blockstack PBC</a> is a New York based public benefit corporation,
                 creating a decentralized computing network and app ecosystem designed
-                to protect digital rights including privacy and data ownership.
+                to protect digital rights including privacy and data&nbsp;ownership.
                 </div>
                 <div className="col col-md-6 p-4 text-left border-left">
                   <a href="https://app.co/mining" target="_blank">Blockstack awards
                   more than $200K/month</a> to the best apps on the platform, increasing
                   to a million dollars a month from May 2020.
-                  Use REBL One to make your app and start earning a share already next&nbsp;month.
+                  Use REBL One to make an app and start earning your share already next&nbsp;month.
                 </div>
               </div>
             </div>
 
-            <div className="card mt-3 border-info">
+            <div className="card mt-4 border-info">
               <div className="card-header">
                 <h5 className="card-title">
-                  Check out the REBL One starter&nbsp;app:
+                  REBL One - Basic&nbsp;Functionality
                 </h5>
               </div>
               <div className="card-body">
-                <p className="card-link">
-                  <BlockstackButton onClick={ signIn }/>
-                </p>
 
-                <p className="card-text mt-3">
+                <p className="card-text mb-3 mt-4 mx-5 px-5">
                 After signing in and authenticating with Blockstack,
-                you'll be presented with profile information and be able
-                to save a note to Blockstack's online storage, Gaia. That's&nbsp;it. </p>
+                you'll view your personal profile and be able
+                to save a note to Blockstack's&nbsp;online&nbsp;storage,&nbsp;Gaia.</p>
               </div>
 
-              <div className="card-footer">
-                  You can build on this functionality to make amazing&nbsp;apps.
+              <p className="card-link mb-5">
+                <BlockstackButton onClick={ signIn }/>
+              </p>
+
+
+              <div className="card-footer text-info">
+                  <strong>You can build on this core to make amazing&nbsp;apps.</strong>
               </div>
 
             </div>
 
 
-            <div className="card mt-3  border-primary">
+            <div className="card mt-4  border-info">
               <div className="card-header">
                 <h5 classNme="card-title">Quick Start</h5>
               </div>
               <div className="card-body">
-                <p className="card-text">Assuming you have accounts
+                <p className="card-text mx-5 my-3">Assuming you have accounts
                    on <a href="https://github.com" target="_blank">Github</a>&nbsp;
                    and <a href="https://netlify.com" target="_blank">Netlify</a> you can
                    automatically <strong>generate a website with your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;app:</strong></p>
