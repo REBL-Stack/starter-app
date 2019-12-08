@@ -12,12 +12,14 @@ export default class Landing extends Component {
       <div className="panel-landing text-center mt-3">
         <h1 className="landing-heading">REBL One</h1>
         <p className="lead">
-          A Foundation for Making Apps using React and Blockstack.
+          A Foundation for Making Apps using React&nbsp;and&nbsp;Blockstack.
         </p>
 
         <p className="alert alert-info">
-        REBL One is an open source project providing a minimalistic Blockstack
-        app, with the purpose of <strong>helping software developers like you
+        REBL One is
+        an <a href="https://github.com/REBL-Stack/starter-app" target="_blank">open
+        source</a> project providing a minimalistic Blockstack
+        starter app, with the purpose of <strong>helping software developers like you
         to quickly get going with Blockstack&nbsp;app&nbsp;development.</strong>
         </p>
 
@@ -33,40 +35,48 @@ export default class Landing extends Component {
               <a href="https://app.co/mining" target="_blank">Blockstack awards
               more than $200K/month</a> to the best apps on the platform, increasing
               to a million dollars a month from May 2020.
-              Use REBL One to make your app and start earning a share already next month.
+              Use REBL One to make your app and start earning a share already next&nbsp;month.
             </div>
           </div>
         </div>
 
         <div className="card mt-3 p-3">
-          <div className="card-title">
-            <h5>Check out the REBL One starter app:</h5>
+          <div className="card-body">
+            <h5 className="card-title">
+              Check out the REBL One starter&nbsp;app:
+            </h5>
+
+            <p className="card-link">
+              <BlockstackButton onClick={ signIn }/>
+            </p>
+
+            <p className="card-text mt-3">
+            After signing in and authenticating with Blockstack,
+            you'll be presented with profile information and be able
+            to save a note to Blockstack's online storage, Gaia. That's&nbsp;it. </p>
           </div>
 
-          <p className="lead">
-            <BlockstackButton onClick={ signIn }/>
-          </p>
-
-          <p className="mt-3">After signing in and authenticating with Blockstack,
-          you'll be able to save a note to Blockstack's online storage, Gaia.
-          That's it. You can build on this functionality to make amazing apps.</p>
+          <div className="card-footer">
+              You can build on this functionality to make amazing&nbsp;apps.
+          </div>
 
         </div>
 
 
         <div className="card mt-3 p-3">
-
-          <p>Assuming you have accounts
-             on <a href="https://github.com" target="_blank">Github</a>&nbsp;
-             and <a href="https://netlify.com" target="_blank">Netlify</a> you can
-             automatically <strong>generate a website with your own clone of this app:</strong></p>
-          <p>
+          <div className="card-body">
+            <h5 classNme="card-title">Quick Start</h5>
+            <p className="card-text">Assuming you have accounts
+               on <a href="https://github.com" target="_blank">Github</a>&nbsp;
+               and <a href="https://netlify.com" target="_blank">Netlify</a> you can
+               automatically <strong>generate a website with your own clone of this app:</strong></p>
+          </div>
+          <div className="card-footer">
             <a className="btn btn-outline-primary" type="button"
                    href="https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app"  >
               Deploy to Netlify
             </a>
-          </p>
-
+          </div>
         </div>
       </div>
     )
