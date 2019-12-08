@@ -18,14 +18,14 @@ inspect {
   border: thin solid red;
 }
 
-#App {
+.Landing {
   background-image: url(https://rebl.run/media/arthur-edelman-YiZ_C5H0x5Y-unsplash.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
-#App .jumbotron {
+.Landing .jumbotron {
   opacity: 0.92;
 }
 

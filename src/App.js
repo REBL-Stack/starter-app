@@ -8,12 +8,8 @@ export default function App (props) {
   const { person, signIn } = useBlockstack()
   return (
   <Blockstack>
-    <div className="jumbotron jumbotron-fluid pt-3 mb-0">
-      <div className="container">
-         {signIn && <Landing/>}
-         {person && <Main person={person}/>}
-      </div>
-    </div>
+     {signIn && <Landing/>}
+     {person && <Main person={person}/>}
   </Blockstack>
   )
 }
