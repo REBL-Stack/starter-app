@@ -24,7 +24,7 @@ export default class Landing extends Component {
         <div className="card mt-3">
           <div className="row">
             <div className="col col-md-6 p-3 text-right">
-              <a href="https://blockstack.org/about">
+              <a href="https://blockstack.org/about" target="_blank">
               Blockstack PBC</a> is a New York based public benefit corporation,
             creating a decentralized computing network and app ecosystem designed
             to protect digital rights including privacy and data ownership.
