@@ -77,7 +77,8 @@ export default function Main ({ person }) {
            <h5>Next Step</h5>
            <p>
              Log out to get back to the Landing page where
-             you can deploy your own clone of&nbsp;this&nbsp;app!
+             you can deploy your own clone of&nbsp;this&nbsp;app
+             as a starting point for your own Blockstack apps.
           </p>
         </div>
       </div>
