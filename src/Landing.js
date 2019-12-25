@@ -51,13 +51,13 @@ export default class Landing extends Component {
             <div className="card mt-4 border-info">
               <div className="card-header">
                 <h5 className="card-title">
-                  REBL One - Starter App Demo
+                  Starter App Demo
                 </h5>
               </div>
               <div className="card-body">
 
                 <p className="card-text mb-3 mt-4 mx-5 px-5">
-                Check out the minimalistic functionality of the 
+                Check out the minimalistic functionality of the
                 starter app. After signing in and authenticating with Blockstack,
                 you can view your personal profile and
                 save a note to Blockstack's
@@ -78,7 +78,7 @@ export default class Landing extends Component {
 
             <div className="card mt-4  border-info">
               <div className="card-header">
-                <h5 classNme="card-title">Quick Start</h5>
+                <h5 classNme="card-title">Quick Deployment</h5>
               </div>
               <div className="card-body">
                 <p className="card-text mx-5 my-3">Assuming you have accounts
@@ -86,13 +86,15 @@ export default class Landing extends Component {
                    and <a href="https://netlify.com" target="_blank">Netlify</a> you can
                    automatically <strong>generate and host for free a website that
                    has your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;starter&nbsp;app:</strong></p>
+                    <a className="btn btn-secondary p-0" type="button" target="_blank"
+                           href="https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app">
+                      <img src="https://www.netlify.com/img/deploy/button.svg"
+                           alt="&nbsp;Deploy to Netlify&nbsp;"/>
+                    </a>
               </div>
               <div className="card-footer">
-                <a className="btn btn-secondary p-0" type="button" target="_blank"
-                       href="https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app">
-                  <img src="https://www.netlify.com/img/deploy/button.svg"
-                       alt="&nbsp;Deploy to Netlify&nbsp;"/>
-                </a>
+                 Use the deployed app as a staring point for your app project.
+                 We're looking forward to see what you're making.
               </div>
             </div>
           </div>
