@@ -41,9 +41,9 @@ export default class Landing extends Component {
                 </div>
                 <div className="col col-md-6 p-4 text-left border-left">
                   <a href="https://app.co/mining" target="_blank">Blockstack awards
-                  more than $200K/month</a> to the best apps on the platform, increasing
+                  more than $300K/month</a> to the best apps on the platform, increasing
                   to a million dollars a month from May 2020.
-                  Use REBL One to make an app and start earning your share already next&nbsp;month.
+                  Use REBL One to make a web app and start earning your share already next&nbsp;month.
                 </div>
               </div>
             </div>
@@ -51,7 +51,7 @@ export default class Landing extends Component {
             <div className="card mt-4 border-info">
               <div className="card-header">
                 <h5 className="card-title">
-                  REBL One - Basic&nbsp;Functionality
+                  REBL One - Simple Demo App
                 </h5>
               </div>
               <div className="card-body">
@@ -59,7 +59,8 @@ export default class Landing extends Component {
                 <p className="card-text mb-3 mt-4 mx-5 px-5">
                 After signing in and authenticating with Blockstack,
                 you can view your personal profile and
-                save a note to Blockstack's&nbsp;online&nbsp;storage,&nbsp;Gaia.</p>
+                save a note to Blockstack's
+                online&nbsp;storage,&nbsp;Gaia.</p>
               </div>
 
               <p className="card-link mb-5">
@@ -82,7 +83,8 @@ export default class Landing extends Component {
                 <p className="card-text mx-5 my-3">Assuming you have accounts
                    on <a href="https://github.com" target="_blank">Github</a>&nbsp;
                    and <a href="https://netlify.com" target="_blank">Netlify</a> you can
-                   automatically <strong>generate and host for free a website that has your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;app:</strong></p>
+                   automatically <strong>generate and host for free a website that
+                   has your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;starter&nbsp;app:</strong></p>
               </div>
               <div className="card-footer">
                 <a className="btn btn-secondary p-0" type="button" target="_blank"
