@@ -51,7 +51,7 @@ export default class Landing extends Component {
             <div className="card mt-4 border-info">
               <div className="card-header">
                 <h5 className="card-title">
-                  REBL One - Simple Demo App
+                  REBL One - Starter App Demo
                 </h5>
               </div>
               <div className="card-body">
@@ -69,7 +69,7 @@ export default class Landing extends Component {
 
 
               <div className="card-footer text-info">
-                  <strong>Build on this core to make amazing&nbsp;apps.</strong>
+                  <strong>Build on this basic core to make amazing&nbsp;apps.</strong>
               </div>
 
             </div>
