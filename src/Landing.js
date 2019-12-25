@@ -57,7 +57,8 @@ export default class Landing extends Component {
               <div className="card-body">
 
                 <p className="card-text mb-3 mt-4 mx-5 px-5">
-                After signing in and authenticating with Blockstack,
+                Check out the minimalistic functionality of the 
+                starter app. After signing in and authenticating with Blockstack,
                 you can view your personal profile and
                 save a note to Blockstack's
                 online&nbsp;storage,&nbsp;Gaia.</p>
