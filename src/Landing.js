@@ -129,7 +129,7 @@ export default class Landing extends Component {
                     href="https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app"
                   >
                     <img
-                      src="https://www.netlify.com/img/deploy/button.svg"
+                      src="/proxy/www.netlify.com/img/deploy/button.svg"
                       alt="&nbsp;Deploy to Netlify&nbsp;"
                     />
                   </a>
