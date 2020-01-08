@@ -20,7 +20,7 @@ export default class Landing extends Component {
 
             <p className="alert alert-info  border-info">
             REBL One is
-            an <a href="https://github.com/REBL-Stack/starter-app" target="_blank">open
+            an <a href="https://github.com/REBL-Stack/starter-app" target="_blank" rel="noopener noreferrer">open
             source</a> project providing a minimalistic Blockstack
             starter app, with the purpose of <strong>helping software developers like you
             quickly get going with Blockstack&nbsp;app&nbsp;development.</strong>
@@ -34,13 +34,13 @@ export default class Landing extends Component {
               </div>
               <div className="row">
                 <div className="col col-md-6 p-4 text-right border-right">
-                  <a href="https://blockstack.org/about" target="_blank">
+                  <a href="https://blockstack.org/about" target="_blank" rel="noopener noreferrer">
                   Blockstack PBC</a> is a New York based public benefit corporation,
                 creating a decentralized computing network and app ecosystem designed
                 to protect digital rights including privacy and data&nbsp;ownership.
                 </div>
                 <div className="col col-md-6 p-4 text-left border-left">
-                  <a href="https://app.co/mining" target="_blank">Blockstack awards
+                  <a href="https://app.co/mining" target="_blank" rel="noopener noreferrer">Blockstack awards
                   more than $300K/month</a> to the best apps on the platform, increasing
                   to a million dollars a month from May 2020.
                   Use REBL One to make a web app and start earning your share already next&nbsp;month.
@@ -82,11 +82,12 @@ export default class Landing extends Component {
               </div>
               <div className="card-body">
                 <p className="card-text mx-5 my-3">Assuming you have accounts
-                   on <a href="https://github.com" target="_blank">Github</a>&nbsp;
-                   and <a href="https://netlify.com" target="_blank">Netlify</a> you can
+                   on <a href="https://github.com" target="_blank" rel="noopener noreferrer">Github</a>&nbsp;
+                   and <a href="https://netlify.com" target="_blank" rel="noopener noreferrer">Netlify</a> you can
                    automatically <strong>generate and host for free a website that
                    has your&nbsp;own&nbsp;clone&nbsp;of&nbsp;this&nbsp;starter&nbsp;app:</strong></p>
                     <a className="btn btn-secondary p-0" type="button" target="_blank"
+                           rel="noopener noreferrer"
                            href="https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app">
                       <img src="https://www.netlify.com/img/deploy/button.svg"
                            alt="&nbsp;Deploy to Netlify&nbsp;"/>
