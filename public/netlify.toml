@@ -9,7 +9,9 @@
 
 [redirects]]
   from = "/proxy/*"
-  to = "https://:splat 200"
+  to = "https://:splat"
+  status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
