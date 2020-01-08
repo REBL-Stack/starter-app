@@ -7,6 +7,10 @@
   from = "/media/*"
   to = "/media/:splat"
 
+[redirects]]
+  from = "/proxy/*"
+  to = "https://:splat 200"
+
 [[redirects]]
   from = "/*"
   to = "/index.html 200"
@@ -18,7 +22,7 @@
     Access-Control-Allow-Headers = "X-Requested-With, Content-Type, Origin, Authorization, Accept, Client-Security-Token, Accept-Encoding"
     Access-Control-Allow-Methods = "POST, GET, OPTIONS, DELETE, PUT"
     Can't-Be-Evil = "true"
-    
+
 [[headers]]
   for = "/manifest.json"
   [headers.values]

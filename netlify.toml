@@ -4,12 +4,16 @@
   publish = "build"
 
 [[redirects]]
-  from = "/*"
-  to = "/index.html 200"
+  from = "/proxy/*"
+  to = "https://:splat 200"
 
 [[redirects]]
   from = "/media/*"
   to = "/media/:splat"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html 200"
 
 [[headers]]
   for = "/index.html"
