@@ -5,11 +5,12 @@ const avatarFallbackImage =
   'https://s3.amazonaws.com/onename/avatar-placeholder.png';
 
 function Profile({ person }) {
+  const proxyUrl = (url) => "/proxy/" + url.replace(/^https?\:\/\//i, "")
   return (
     <div className="Profile">
       <div className="avatar-section text-center">
         <img
-          src={(person && person.avatarUrl()) || avatarFallbackImage}
+          src={proxyUrl((person && person.avatarUrl()) || avatarFallbackImage)}
           className="img-rounded avatar"
           id="avatar-image"
           alt="Avatar"
