@@ -7,7 +7,7 @@
   from = "/media/*"
   to = "/media/:splat"
 
-[redirects]]
+[[redirects]]
   from = "/proxy/*"
   to = "https://:splat"
   status = 200
