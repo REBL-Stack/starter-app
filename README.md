@@ -8,6 +8,10 @@ It applies Bootstrap for layout and style, but it is trivial to substitute with 
 The project is based on [Create React App](https://github.com/facebook/create-react-app),
 a starter app for React, where you can find further documentation.
 
+## Easy Deploy
+
+[![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app)
+
 ## Available Scripts
 
 First run:
