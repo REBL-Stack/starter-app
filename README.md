@@ -13,7 +13,6 @@ a starter app for React, where you can find further documentation.
 Trigger this button to fork this project and deploy to [Netlify](https://netlify.com):
 
 [![Deploy](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/REBL-Stack/starter-app)
-He
 
 ## Available Scripts
 
@@ -25,7 +24,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+Runs the app in the development mode.
+
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>

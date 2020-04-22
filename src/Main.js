@@ -1,31 +1,6 @@
 import React, { useRef } from 'react';
 import { useFile } from 'react-blockstack';
-
-const avatarFallbackImage =
-  'https://s3.amazonaws.com/onename/avatar-placeholder.png';
-
-function Profile({ person }) {
-  const proxyUrl = (url) => "/proxy/" + url.replace(/^https?\:\/\//i, "")
-  return (
-    <div className="Profile">
-      <div className="avatar-section text-center">
-        <img
-          src={proxyUrl((person && person.avatarUrl()) || avatarFallbackImage)}
-          className="img-rounded avatar"
-          id="avatar-image"
-          alt="Avatar"
-        />
-      </div>
-      <h1 className="text-center mt-2">
-        Hello,{' '}
-        <span id="heading-name">
-          {(person && person.name()) || 'App Developer'}
-        </span>
-        !
-      </h1>
-    </div>
-  );
-}
+import Profile from './Profile'
 
 function NoteField({ title, path, placeholder }) {
   const [note, setNote] = useFile(path);
@@ -71,12 +46,12 @@ function NoteField({ title, path, placeholder }) {
   );
 }
 
-export default function Main({ person }) {
+export default function Main(props) {
   return (
     <main className="panel-welcome mt-5">
       <div className="row">
         <div className="mx-auto col-sm-10 col-md-8 px-4">
-          <Profile person={person} />
+          <Profile/>
         </div>
       </div>
       <div className="lead row mt-5">
@@ -88,13 +63,13 @@ export default function Main({ person }) {
           <div className="card-header">
             <h5 className="card-title">Instructions</h5>
           </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">Type any text in the field above.</li>
-            <li class="list-group-item">
+          <ul className="list-group list-group-flush">
+            <li className="list-group-item">Type any text in the field above.</li>
+            <li className="list-group-item">
               Press the <i>Enter</i> key or click the <i>Save</i> button to
               store the note.
             </li>
-            <li class="list-group-item">
+            <li className="list-group-item">
               Reload the page to confirm that the text is retained.
             </li>
           </ul>

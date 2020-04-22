@@ -1,6 +1,6 @@
 {
-  "name": "hello-blockstack",
-  "version": "0.0.0",
+  "name": "hello-react-blockstack",
+  "version": "0.0.1",
   "description": "A simple Blockstack app using ReactJS",
   "author": "",
   "license": "MIT",
@@ -9,12 +9,13 @@
     "url": "git+https://github.com/njordhov/react-blockstack.git"
   },
   "dependencies": {
-    "blockstack": "^19.3.0",
-    "react": "^16.8.6",
-    "react-blockstack": "^0.6.4",
+    "@blockstack/connect": "^2.3.1",
+    "blockstack": "^21.0.0",
+    "react": "^16.13.0",
+    "react-blockstack": "^0.6.8",
     "react-blockstack-button": "^0.1.0",
-    "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.0"
+    "react-dom": "^16.13.0",
+    "react-router-dom": "^5.1.2"
   },
   "prettier": "@blockstack/prettier-config",
   "scripts": {
