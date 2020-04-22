@@ -6,7 +6,6 @@ import Main from './Main';
 
 export default function App(props) {
   const { person, authenticated } = useBlockstack();
-  const bs = useBlockstack();
   return (
     <Blockstack>
       {!authenticated && <Landing/>}
