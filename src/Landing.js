@@ -3,6 +3,8 @@ import { BlockstackButton } from 'react-blockstack-button';
 import { didConnect, useConnectOptions } from 'react-blockstack';
 import { showBlockstackConnect } from '@blockstack/connect'
 
+// Landing page demonstrating Blockstack connect for registration
+
 const connectOptions = {
   finished: ({ userSession }) => {
       didConnect({ userSession })
