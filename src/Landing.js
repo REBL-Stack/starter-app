@@ -11,7 +11,7 @@ const connectOptions = {
   },
   appDetails: {
     name: "REBL One",
-    icon: "/rebl.png"
+    icon: "https://one.rebl.run/rebl.png"
   }
 }
 
