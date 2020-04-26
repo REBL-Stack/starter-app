@@ -73,7 +73,7 @@ function NoteField({ title, path, placeholder }) {
 
 export default function Main({ person }) {
   return (
-    <main className="panel-welcome mt-5">
+    <main className="panel-welcome mt-5 container">
       <div className="row">
         <div className="mx-auto col-sm-10 col-md-8 px-4">
           <Profile person={person} />
@@ -84,7 +84,7 @@ export default function Main({ person }) {
           <NoteField title="Note" path="note" placeholder="to yourself..." />
         </div>
 
-        <div className="card col col-sm-10 col-md-8 mx-auto mt-5 text-center px-0 border-warning">
+        <div className="card col-xs-10 col-md-8 mx-auto mt-5 text-center px-0 border-warning">
           <div className="card-header">
             <h5 className="card-title">Instructions</h5>
           </div>
