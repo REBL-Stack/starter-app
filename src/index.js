@@ -11,6 +11,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './styles/style.css';
 
 const appConfig = new AppConfig();
+// eslint-disable-next-line
 const blockstack = ReactBlockstack(appConfig);
 
 ReactDOM.render(
