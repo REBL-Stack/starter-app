@@ -12,7 +12,7 @@
     "@blockstack/connect": "^2.3.1",
     "blockstack": "^21.0.0",
     "react": "^16.13.0",
-    "react-blockstack": "^0.6.8",
+    "react-blockstack": "^0.6.10",
     "react-blockstack-button": "^0.1.0",
     "react-dom": "^16.13.0",
     "react-router-dom": "^5.1.2"
