@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
-import ReactBlockstack from 'react-blockstack';
 import { AppConfig } from 'blockstack';
+import ReactBlockstack from 'react-blockstack';
+import { Blockstack } from 'react-blockstack/dist/context';
 import App from './App.js';
 import Auth from './Auth.js';
 
@@ -15,9 +15,9 @@ const appConfig = new AppConfig();
 const blockstack = ReactBlockstack(appConfig);
 
 ReactDOM.render(
-  <Router>
-    <App />
-  </Router>,
+    <Blockstack>
+      <App />
+    </Blockstack>,
   document.getElementById('App')
 );
 ReactDOM.render(<Auth />, document.getElementById('Auth'));
