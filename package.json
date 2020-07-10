@@ -1,5 +1,5 @@
 {
-  "name":"Blockstack",
+  "name": "Blockstack",
   "version": "0.0.1",
   "description": "Blockstack Hub",
   "author": "",
@@ -9,7 +9,7 @@
     "url": "git+https://github.com/njordhov/react-blockstack.git"
   },
   "dependencies": {
-    "@blockstack/connect": "^2.8.0",
+    "@blockstack/connect": "^2.8.2",
     "blockstack": "^21.1.0",
     "react": "^16.13.0",
     "react-blockstack": "^0.6.10",
