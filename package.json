@@ -1,7 +1,7 @@
 {
-  "name": "hello-react-blockstack",
+  "name":"Blockstack",
   "version": "0.0.1",
-  "description": "A simple Blockstack app using ReactJS",
+  "description": "Blockstack Hub",
   "author": "",
   "license": "MIT",
   "repository": {
