@@ -10,7 +10,7 @@ const connectOptions = {
       didConnect({ userSession })
   },
   appDetails: {
-    name: "REBL One",
+    name: "BlockStackHub",
     icon: "https://one.rebl.run/rebl.png"
   }
 }
@@ -27,14 +27,13 @@ export default function Landing (props) {
           <div className="panel-landing text-center mt-3">
             <h1 className="landing-heading">REBL One</h1>
             <p className="lead">
-              A Foundation for Making Apps using
-              React&nbsp;and&nbsp;Blockstack.
+              Frontend for Blockstack.
             </p>
 
             <p className="alert alert-info  border-info">
-              REBL One is an{' '}
+              BH is an{' '}
               <a
-                href="https://github.com/REBL-Stack/starter-app"
+                href="https://5thdimension.github.io/blockstackhub"
                 target="_blank"
                 rel="noopener noreferrer"
               >
